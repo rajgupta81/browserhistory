@@ -11,7 +11,7 @@ platform_table = {
         'win32': 1,
         }
 
-# it supports Linux, MacOS, and Windows platforms.
+# it supports Linux, Windows platforms.
 try:
     user_platformcode = platform_table[sys.platform]
 except KeyError:
